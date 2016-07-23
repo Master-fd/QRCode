@@ -8,20 +8,27 @@
 
 #import "ViewController.h"
 
+
+
+/**
+ *  二维码Demo，具体包括
+ *  二维码扫描，
+ *  图片二维码识别，
+ *  生成二维码（黑白，添加中间logo）
+ */
+
 @interface ViewController ()
 
+
 @end
+
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    FDLog(@"二维码生成和扫描");
 }
 
 @end

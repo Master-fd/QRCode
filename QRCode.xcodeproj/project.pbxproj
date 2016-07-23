@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B921D361D4361D400FD4E02 /* UIView+FDViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B921D301D4361D400FD4E02 /* UIView+FDViewExtension.m */; };
+		1B921D371D4361D400FD4E02 /* FDQRCodeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B921D331D4361D400FD4E02 /* FDQRCodeImage.m */; };
+		1B921D381D4361D400FD4E02 /* FDScanToolController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B921D351D4361D400FD4E02 /* FDScanToolController.m */; };
 		1BC1A7C71D3E74E9006705F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7C61D3E74E9006705F6 /* main.m */; };
 		1BC1A7CA1D3E74E9006705F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7C91D3E74E9006705F6 /* AppDelegate.m */; };
 		1BC1A7CD1D3E74E9006705F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7CC1D3E74E9006705F6 /* ViewController.m */; };
@@ -14,6 +17,9 @@
 		1BC1A7D21D3E74E9006705F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BC1A7D11D3E74E9006705F6 /* Images.xcassets */; };
 		1BC1A7D51D3E74E9006705F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1BC1A7D31D3E74E9006705F6 /* LaunchScreen.xib */; };
 		1BC1A7E11D3E74E9006705F6 /* QRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7E01D3E74E9006705F6 /* QRCodeTests.m */; };
+		1BC1A7F11D3E7B05006705F6 /* FDCreateQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7F01D3E7B05006705F6 /* FDCreateQRCodeViewController.m */; };
+		1BC1A7F71D3E7C37006705F6 /* FDQRScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7F61D3E7C37006705F6 /* FDQRScanViewController.m */; };
+		1BC1A7FA1D3E7C51006705F6 /* FDQRImageScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC1A7F91D3E7C51006705F6 /* FDQRImageScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B921D2F1D4361D400FD4E02 /* UIView+FDViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FDViewExtension.h"; sourceTree = "<group>"; };
+		1B921D301D4361D400FD4E02 /* UIView+FDViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FDViewExtension.m"; sourceTree = "<group>"; };
+		1B921D321D4361D400FD4E02 /* FDQRCodeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRCodeImage.h; sourceTree = "<group>"; };
+		1B921D331D4361D400FD4E02 /* FDQRCodeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRCodeImage.m; sourceTree = "<group>"; };
+		1B921D341D4361D400FD4E02 /* FDScanToolController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDScanToolController.h; sourceTree = "<group>"; };
+		1B921D351D4361D400FD4E02 /* FDScanToolController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDScanToolController.m; sourceTree = "<group>"; };
 		1BC1A7C11D3E74E9006705F6 /* QRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC1A7C51D3E74E9006705F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BC1A7C61D3E74E9006705F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +52,13 @@
 		1BC1A7DA1D3E74E9006705F6 /* QRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC1A7DF1D3E74E9006705F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BC1A7E01D3E74E9006705F6 /* QRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeTests.m; sourceTree = "<group>"; };
+		1BC1A7EA1D3E74FE006705F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1BC1A7EF1D3E7B05006705F6 /* FDCreateQRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCreateQRCodeViewController.h; sourceTree = "<group>"; };
+		1BC1A7F01D3E7B05006705F6 /* FDCreateQRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCreateQRCodeViewController.m; sourceTree = "<group>"; };
+		1BC1A7F51D3E7C37006705F6 /* FDQRScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRScanViewController.h; sourceTree = "<group>"; };
+		1BC1A7F61D3E7C37006705F6 /* FDQRScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRScanViewController.m; sourceTree = "<group>"; };
+		1BC1A7F81D3E7C51006705F6 /* FDQRImageScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDQRImageScanViewController.h; sourceTree = "<group>"; };
+		1BC1A7F91D3E7C51006705F6 /* FDQRImageScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDQRImageScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +79,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B921D2D1D4361D400FD4E02 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1B921D2E1D4361D400FD4E02 /* Extension */,
+				1B921D311D4361D400FD4E02 /* Tool */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1B921D2E1D4361D400FD4E02 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B921D2F1D4361D400FD4E02 /* UIView+FDViewExtension.h */,
+				1B921D301D4361D400FD4E02 /* UIView+FDViewExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1B921D311D4361D400FD4E02 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				1B921D321D4361D400FD4E02 /* FDQRCodeImage.h */,
+				1B921D331D4361D400FD4E02 /* FDQRCodeImage.m */,
+				1B921D341D4361D400FD4E02 /* FDScanToolController.h */,
+				1B921D351D4361D400FD4E02 /* FDScanToolController.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		1BC1A7B81D3E74E9006705F6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +129,10 @@
 		1BC1A7C31D3E74E9006705F6 /* QRCode */ = {
 			isa = PBXGroup;
 			children = (
+				1B921D2D1D4361D400FD4E02 /* Common */,
+				1BC1A7F41D3E7B37006705F6 /* QRCodeImageScan */,
+				1BC1A7F31D3E7B1F006705F6 /* QRCodeScan */,
+				1BC1A7EE1D3E7B05006705F6 /* QRCodeCreate */,
 				1BC1A7C81D3E74E9006705F6 /* AppDelegate.h */,
 				1BC1A7C91D3E74E9006705F6 /* AppDelegate.m */,
 				1BC1A7CB1D3E74E9006705F6 /* ViewController.h */,
@@ -98,6 +150,7 @@
 			children = (
 				1BC1A7C51D3E74E9006705F6 /* Info.plist */,
 				1BC1A7C61D3E74E9006705F6 /* main.m */,
+				1BC1A7EA1D3E74FE006705F6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +170,33 @@
 				1BC1A7DF1D3E74E9006705F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1BC1A7EE1D3E7B05006705F6 /* QRCodeCreate */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1A7EF1D3E7B05006705F6 /* FDCreateQRCodeViewController.h */,
+				1BC1A7F01D3E7B05006705F6 /* FDCreateQRCodeViewController.m */,
+			);
+			path = QRCodeCreate;
+			sourceTree = "<group>";
+		};
+		1BC1A7F31D3E7B1F006705F6 /* QRCodeScan */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1A7F51D3E7C37006705F6 /* FDQRScanViewController.h */,
+				1BC1A7F61D3E7C37006705F6 /* FDQRScanViewController.m */,
+			);
+			path = QRCodeScan;
+			sourceTree = "<group>";
+		};
+		1BC1A7F41D3E7B37006705F6 /* QRCodeImageScan */ = {
+			isa = PBXGroup;
+			children = (
+				1BC1A7F81D3E7C51006705F6 /* FDQRImageScanViewController.h */,
+				1BC1A7F91D3E7C51006705F6 /* FDQRImageScanViewController.m */,
+			);
+			path = QRCodeImageScan;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +243,7 @@
 		1BC1A7B91D3E74E9006705F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FD;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = asus;
 				TargetAttributes = {
@@ -219,7 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC1A7FA1D3E7C51006705F6 /* FDQRImageScanViewController.m in Sources */,
+				1B921D361D4361D400FD4E02 /* UIView+FDViewExtension.m in Sources */,
+				1BC1A7F71D3E7C37006705F6 /* FDQRScanViewController.m in Sources */,
+				1B921D381D4361D400FD4E02 /* FDScanToolController.m in Sources */,
+				1BC1A7F11D3E7B05006705F6 /* FDCreateQRCodeViewController.m in Sources */,
 				1BC1A7CD1D3E74E9006705F6 /* ViewController.m in Sources */,
+				1B921D371D4361D400FD4E02 /* FDQRCodeImage.m in Sources */,
 				1BC1A7CA1D3E74E9006705F6 /* AppDelegate.m in Sources */,
 				1BC1A7C71D3E74E9006705F6 /* main.m in Sources */,
 			);
@@ -347,7 +434,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QRCode/PrefixHeader.pch";
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +446,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/QRCode/PrefixHeader.pch";
 				INFOPLIST_FILE = QRCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +507,7 @@
 				1BC1A7E61D3E74E9006705F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BC1A7E71D3E74E9006705F6 /* Build configuration list for PBXNativeTarget "QRCodeTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +516,7 @@
 				1BC1A7E91D3E74E9006705F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
